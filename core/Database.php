@@ -16,7 +16,7 @@ class Database
         $this->port = getenv('DB_PORT') ?: '3306';
         $this->db_name = getenv('DB_NAME') ?: 'kampus_db';
         $this->username = getenv('DB_USER') ?: 'root';
-        $this->password = getenv('DB_PASS') ?: '';
+        $this->password = getenv('DB_PASS') ?: 'Kangkitty30_';
         $this->sslmode = getenv('DB_SSLMODE') ?: ''; // vercel pakai require
         // getenv() hanya akan mengambil nilai dari environment variable sistem, bukan dari file .env apa pun.
         // getenv() hanya dipakai untuk production server
